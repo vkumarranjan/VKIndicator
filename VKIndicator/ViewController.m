@@ -17,14 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self animation2];
+    [self animation];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)animation2{
+-(void)animation{
     CAReplicatorLayer *clyaer =  [CAReplicatorLayer new];
     clyaer.bounds = CGRectMake(0, 0, 200, 200);
     clyaer.cornerRadius = 10.0;
